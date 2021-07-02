@@ -12,7 +12,7 @@ public class LockedDoor : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.K)&& PlayerController.key == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
 }

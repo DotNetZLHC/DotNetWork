@@ -9,7 +9,7 @@ public class BackScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex +1 );
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex -1 );
             PlayerController.key = true;
         }
     }
